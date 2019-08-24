@@ -10,7 +10,6 @@ from key import apikey#apikeyのインポート
 #設定用変数
 GOOGLE_CLOUD_VISION_API_URL = 'https://vision.googleapis.com/v1/images:annotate?key='
 API_KEY=apikey()
-#API_KEY="AIzaSyAgS6k914yuaRKEHWbODVVX_S_tIdxytpo"
 path="/Users/hiraku/Desktop/andD/雑誌解析/image/test9.png"
 api_url=GOOGLE_CLOUD_VISION_API_URL + API_KEY
 res_file_path='/Users/hiraku/Desktop/andD/雑誌解析/results/result.txt'
